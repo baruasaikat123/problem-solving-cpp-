@@ -12,8 +12,8 @@ void solve(){
 
     int n;
     cin >> n;
-    if((n&1)==0) cout << "Even";
-    else cout << "Odd";
+    if((n&1)==0) cout << "Even";   // if a&1=0, then 'a' is even
+    else cout << "Odd";            // if a&1=1, then 'a' is odd
 }
 int main(){
     
